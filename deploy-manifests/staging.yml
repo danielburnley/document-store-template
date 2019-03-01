@@ -1,0 +1,8 @@
+---
+applications:
+- name: {{API_NAME}}-staging
+  memory: 1G
+  services:
+  - {{API_NAME}}-staging-db
+  env:
+    HmacSecret: ((HmacSecret))

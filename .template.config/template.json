@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Daniel Burnley",
+  "classifications": ["Solution"],
+  "tags": {
+    "language": "C#"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            ".template.config/**/*",
+            "**/*.filelist",
+            "**/*.user",
+            "**/*.lock.json",
+            ".git/**/*"
+          ]
+        }
+      ]
+    }
+  ],
+  "identity": "DocumentStoreTemplate",
+  "shortName": "documentstoresln",
+  "name": "Document Store Solution",
+  "preferNameDirectory": true,
+  "sourceName": "DocumentStoreTemplate",
+  "symbols": {
+    "apiName": {
+      "type": "parameter",
+      "replaces": "DocumentStoreApi",
+      "isRequired": true,
+      "FileRename": "DocumentStoreApi"
+    },
+    "serviceName": {
+      "type": "parameter",
+      "defaultValue": "document-store",
+      "replaces": "{{API_NAME}}",
+      "isRequired": true
+    }
+  }
+}

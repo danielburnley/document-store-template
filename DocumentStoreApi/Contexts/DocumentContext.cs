@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
-using DocumentStoreTemplate.Models;
+using DocumentStoreApi.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DocumentStoreTemplate.Contexts
+namespace DocumentStoreApi.Contexts
 {
     public class DocumentContext : DbContext
     {

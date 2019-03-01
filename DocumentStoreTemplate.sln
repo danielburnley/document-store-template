@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStoreTemplate", "DocumentStoreTemplate\DocumentStoreTemplate.csproj", "{733CC299-9F17-4AA3-8EEB-C98B95C87526}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentStoreApi", "DocumentStoreApi\DocumentStoreApi.csproj", "{733CC299-9F17-4AA3-8EEB-C98B95C87526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

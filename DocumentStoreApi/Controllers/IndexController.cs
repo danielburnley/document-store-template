@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DocumentStoreTemplate.Contexts;
-using DocumentStoreTemplate.Models;
+using DocumentStoreApi.Contexts;
+using DocumentStoreApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Document = DocumentStoreTemplate.Models.Document;
+using Document = DocumentStoreApi.Models.Document;
 
-namespace DocumentStoreTemplate.Controllers
+namespace DocumentStoreApi.Controllers
 {
     [Route("/api/v1/")]
     [ApiController]

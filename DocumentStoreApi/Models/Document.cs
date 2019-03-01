@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DocumentStoreTemplate.Models
+namespace DocumentStoreApi.Models
 {
     public class Document
     {

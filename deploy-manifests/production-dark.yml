@@ -1,0 +1,8 @@
+---
+applications:
+- name: {{API_NAME}}-production-dark
+  memory: 1G
+  services:
+    - {{API_NAME}}-production-db
+  env:
+    HmacSecret: ((HmacSecret))

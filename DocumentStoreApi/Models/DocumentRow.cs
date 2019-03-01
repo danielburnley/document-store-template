@@ -1,7 +1,6 @@
-using System;
 using Newtonsoft.Json;
 
-namespace DocumentStoreTemplate.Models
+namespace DocumentStoreApi.Models
 {
     public class DocumentRow
     {
