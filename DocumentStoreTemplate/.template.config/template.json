@@ -11,7 +11,7 @@
   "shortName": "documentstoreapi",
   "name": "Document Store Template",
   "preferNameDirectory": true,
-  "sourceName": "DocumentStoreTemplate",
+  "sourceName": "DocumentStoreTemplate"
 }
 
 
