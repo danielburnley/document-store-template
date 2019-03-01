@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Daniel Burnley",
+  "classifications": [
+    "WebAPI"
+  ],
+  "identity": "DanielBurnley.DocumentStoreTemplate.CSharp",
+  "name": "Document Store template",
+  "shortName": "documentstoreapi"
+}
+
+
