@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using DocumentStoreTemplate.Contexts;
+using DocumentStoreTemplate.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Document = DocumentStoreTemplate.Models.Document;
@@ -26,9 +28,9 @@ namespace DocumentStoreTemplate.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PostDocumentResponse>> PostDocument(Document document)
+        public async Task<ActionResult<PostDocumentResponse>> PostDocument([FromBody] List<DocumentRow> documentRows)
         {
-            document.Version = _context.Documents.Count() + 1;
+            Document document = new Document {Version = _context.Documents.Count() + 1, Rows = documentRows};
 
             _context.Documents.Add(document);
             await _context.SaveChangesAsync();
